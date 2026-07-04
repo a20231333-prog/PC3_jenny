@@ -204,7 +204,7 @@ elif selected == 'Gráficos':
         )
 
         # Cargar el mapa HTML generado previamente
-        with open("MAPA.html", "r", encoding="utf-8") as f:
+        with open("jenny.html", "r", encoding="utf-8") as f:
             html_content = f.read()
 
         # Mostrar el mapa interactivo
