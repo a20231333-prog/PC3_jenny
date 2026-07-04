@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8ff382b34d2c868e72f562b7958eeea9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8ff382b34d2c868e72f562b7958eeea9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8ff382b34d2c868e72f562b7958eeea9 = L.map(
+                "map_8ff382b34d2c868e72f562b7958eeea9",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e3e85538ac82f8e711edf78235cb5aef = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e3e85538ac82f8e711edf78235cb5aef.addTo(map_8ff382b34d2c868e72f562b7958eeea9);
+        
+    
+            var marker_733f2fcada0aeb173c3aba3d0b59ee3f = L.marker(
+                [-37.8721, 175.6829],
+                {
+}
+            ).addTo(map_8ff382b34d2c868e72f562b7958eeea9);
+        
+    
+        var popup_0d7d9025660fe606140fe35cfcf29632 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d7c91c5a282a08c3f9295a38e2388720 = $(`<div id="html_d7c91c5a282a08c3f9295a38e2388720" style="width: 100.0%; height: 100.0%;">     <b>Título:</b> El Señor de los Anillos<br>     <b>Director/Creador:</b> Peter Jackson<br>     <b>Año:</b> 2001<br>     <b>Género:</b> Fantasía<br>     <b>Plataforma:</b> Cine<br>     <b>Lugar de Grabación:</b> Matamata (Nueva Zelanda)     </div>`)[0];
+                popup_0d7d9025660fe606140fe35cfcf29632.setContent(html_d7c91c5a282a08c3f9295a38e2388720);
+            
+        
+
+        marker_733f2fcada0aeb173c3aba3d0b59ee3f.bindPopup(popup_0d7d9025660fe606140fe35cfcf29632)
+        ;
+
+        
+    
+    
+            marker_733f2fcada0aeb173c3aba3d0b59ee3f.bindTooltip(
+                `<div>
+                     El Señor de los Anillos
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2d6555450f153560f0b4511d4f132c7f = L.marker(
+                [35.0845, -106.6511],
+                {
+}
+            ).addTo(map_8ff382b34d2c868e72f562b7958eeea9);
+        
+    
+        var popup_afb7a7552fb944658b84b9e73e95615d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9612d12dd279d329a7e53d4e0a46ce90 = $(`<div id="html_9612d12dd279d329a7e53d4e0a46ce90" style="width: 100.0%; height: 100.0%;">     <b>Título:</b> Breaking Bad<br>     <b>Director/Creador:</b> Vince Gilligan<br>     <b>Año:</b> 2008<br>     <b>Género:</b> Drama / Crimen<br>     <b>Plataforma:</b> Netflix<br>     <b>Lugar de Grabación:</b> Albuquerque (EE.UU.)     </div>`)[0];
+                popup_afb7a7552fb944658b84b9e73e95615d.setContent(html_9612d12dd279d329a7e53d4e0a46ce90);
+            
+        
+
+        marker_2d6555450f153560f0b4511d4f132c7f.bindPopup(popup_afb7a7552fb944658b84b9e73e95615d)
+        ;
+
+        
+    
+    
+            marker_2d6555450f153560f0b4511d4f132c7f.bindTooltip(
+                `<div>
+                     Breaking Bad
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5b7362fbe7c642ddd7d4bb0455fdbd83 = L.marker(
+                [42.6507, 18.0944],
+                {
+}
+            ).addTo(map_8ff382b34d2c868e72f562b7958eeea9);
+        
+    
+        var popup_d512749fea8521a726987d7ca456f5cb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_38e71d43418391f56ffadf385934bbb2 = $(`<div id="html_38e71d43418391f56ffadf385934bbb2" style="width: 100.0%; height: 100.0%;">     <b>Título:</b> Game of Thrones<br>     <b>Director/Creador:</b> David Benioff<br>     <b>Año:</b> 2011<br>     <b>Género:</b> Fantasía / Drama<br>     <b>Plataforma:</b> Max<br>     <b>Lugar de Grabación:</b> Dubrovnik (Croacia)     </div>`)[0];
+                popup_d512749fea8521a726987d7ca456f5cb.setContent(html_38e71d43418391f56ffadf385934bbb2);
+            
+        
+
+        marker_5b7362fbe7c642ddd7d4bb0455fdbd83.bindPopup(popup_d512749fea8521a726987d7ca456f5cb)
+        ;
+
+        
+    
+    
+            marker_5b7362fbe7c642ddd7d4bb0455fdbd83.bindTooltip(
+                `<div>
+                     Game of Thrones
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_67be7da24a642dab6a93560d4a2046c7 = L.marker(
+                [48.8566, 2.3522],
+                {
+}
+            ).addTo(map_8ff382b34d2c868e72f562b7958eeea9);
+        
+    
+        var popup_25de8af1feb1a66f6f698d8bd271aa86 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_26d81711bbc3c555150bb01158817c9e = $(`<div id="html_26d81711bbc3c555150bb01158817c9e" style="width: 100.0%; height: 100.0%;">     <b>Título:</b> Inception<br>     <b>Director/Creador:</b> Christopher Nolan<br>     <b>Año:</b> 2010<br>     <b>Género:</b> Ciencia Ficción<br>     <b>Plataforma:</b> Cine<br>     <b>Lugar de Grabación:</b> París (Francia)     </div>`)[0];
+                popup_25de8af1feb1a66f6f698d8bd271aa86.setContent(html_26d81711bbc3c555150bb01158817c9e);
+            
+        
+
+        marker_67be7da24a642dab6a93560d4a2046c7.bindPopup(popup_25de8af1feb1a66f6f698d8bd271aa86)
+        ;
+
+        
+    
+    
+            marker_67be7da24a642dab6a93560d4a2046c7.bindTooltip(
+                `<div>
+                     Inception
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5137ebf36439629afb5f55f1418217c6 = L.marker(
+                [52.52, 13.405],
+                {
+}
+            ).addTo(map_8ff382b34d2c868e72f562b7958eeea9);
+        
+    
+        var popup_ff70cf65374d17dcf3c1b2806ced7ae6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6f420e34da83a212b82dcb7797fa915e = $(`<div id="html_6f420e34da83a212b82dcb7797fa915e" style="width: 100.0%; height: 100.0%;">     <b>Título:</b> Dark<br>     <b>Director/Creador:</b> Baran bo Odar<br>     <b>Año:</b> 2017<br>     <b>Género:</b> Misterio / Sci-Fi<br>     <b>Plataforma:</b> Netflix<br>     <b>Lugar de Grabación:</b> Berlín (Alemania)     </div>`)[0];
+                popup_ff70cf65374d17dcf3c1b2806ced7ae6.setContent(html_6f420e34da83a212b82dcb7797fa915e);
+            
+        
+
+        marker_5137ebf36439629afb5f55f1418217c6.bindPopup(popup_ff70cf65374d17dcf3c1b2806ced7ae6)
+        ;
+
+        
+    
+    
+            marker_5137ebf36439629afb5f55f1418217c6.bindTooltip(
+                `<div>
+                     Dark
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            tile_layer_e3e85538ac82f8e711edf78235cb5aef.addTo(map_8ff382b34d2c868e72f562b7958eeea9);
+        
+</script>
+</html>
