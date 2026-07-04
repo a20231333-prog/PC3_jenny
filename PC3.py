@@ -208,7 +208,7 @@ elif selected == 'Gráficos':
             html_content = f.read()
 
         # Mostrar el mapa interactivo
-        compomets.html(
+        components.html(
             html_content,
             height=600
         )
