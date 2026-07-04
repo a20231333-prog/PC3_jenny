@@ -197,7 +197,12 @@ elif selected == 'Gráficos':
         st.markdown(
             """
             <div style='text-align: justify; font-size: 18px;'>
-            Por ultimo, aqui podran observar el mapa de las siguientes series: 
+            Por ultimo, aqui podran observar las locaciones ydatos de las peliculas que seleccione:
+            - Dark
+            - Inception
+            - Game of Thrones
+            - Breaking Bad
+            - El Señor de los Anillos
             </div>
             """,
             unsafe_allow_html=True
