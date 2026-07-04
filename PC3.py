@@ -175,7 +175,7 @@ elif selected == 'Gráficos':
         st.markdown(
             """
             <div style='text-align: justify; font-size: 18px;'>
-            Aquí debe ir una breve interpretación del gráfico.
+            Aquí se presenta el grafico de barras, con las cantidades de goles de Real Madrid 
             </div>
             """,
             unsafe_allow_html=True
@@ -197,7 +197,7 @@ elif selected == 'Gráficos':
         st.markdown(
             """
             <div style='text-align: justify; font-size: 18px;'>
-            Aquí debe ir una breve interpretación del mapa.
+            Por ultimo, aqui podran observar el mapa de las siguientes series: 
             </div>
             """,
             unsafe_allow_html=True
