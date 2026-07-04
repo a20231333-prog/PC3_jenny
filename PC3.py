@@ -104,7 +104,7 @@ elif selected == 'Experiencia':
     Mi experiencia sobre mi aprendisaje a programar ha sido muy enriquecedora y desafiante. Al principio, me sentí un poco abrumada por la cantidad de conceptos nuevos y la lógica detrás de la programación. Sin embargo, con práctica y dedicación, comencé a comprender cómo funcionan los algoritmos y cómo estructurar mi código de manera eficiente.
     Con lo aprendido me gustaria hacer mi propia pagina para mi negocio de publicidad y marketing digital. Aprender esto me ayuda a tener una mejor comprensión de cómo funcionan las aplicaciones web y cómo puedo optimizar mi trabajo en el campo de la publicidad. Asimismo, abrirme mas oportunidades laborales en el futuro, ya que la programación es una habilidad muy demandada en el mercado laboral actual.
     quí escribe tu experiencia aprendiendo a programar. 
-    A continuación podran observar un video que resume mi experiencia aprendiendo a programar y como me ha ayudado en mi vida profesional y personal.
+    A continuación podran observar un video que resume mi experiencia aprendiendo a programar y como me ha ayudado en mi vida profesional y personal. \n
     """
 
     # Mostramos el texto
