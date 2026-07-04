@@ -191,7 +191,7 @@ elif selected == 'Gráficos':
             )
     elif grafico_seleccionado == 'Mapa_1':
         # Título de la sección
-        st.subheader("🗺️ Mapa 1: Distribución geográfica")
+        st.subheader("🗺️ Mapa 1: Mapa")
 
         # Interpretación del mapa
         st.markdown(
