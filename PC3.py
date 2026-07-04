@@ -198,11 +198,11 @@ elif selected == 'Gráficos':
             """
             <div style='text-align: justify; font-size: 18px;'>
             Por ultimo, aqui podran observar las locaciones ydatos de las peliculas que seleccione:
-            - Dark
-            - Inception
-            - Game of Thrones
-            - Breaking Bad
-            - El Señor de los Anillos
+            - Dark\n
+            - Inception\n
+            - Game of Thrones\n
+            - Breaking Bad\n
+            - El Señor de los Anillos\n
             </div>
             """,
             unsafe_allow_html=True
